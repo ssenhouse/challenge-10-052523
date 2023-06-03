@@ -4,7 +4,7 @@
 ---
 ## Cyrpto Investing
 
-![Image used from original FinTech challenge files](/Starter_Code/images/10-5-challenge-image.png)
+![Image used from original FinTech challenge files](/Starter_Code/images/7-4-challenge-image.png)
 The purpose of this challenge was to analyze cyrptocurrencies by analyzing other features other than returns and volatility using machine learning. By analyzing other characteristics of the currency, we can identify patterns and build a portfolio around these patterns. 
 
 ## Technologies

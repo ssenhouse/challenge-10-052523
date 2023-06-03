@@ -22,3 +22,30 @@ This project leverages python 3.7 specifically and assumes that jupyter lab has 
 
 Historical data and challenge questions provided by Columbia FinTech progam.
 Analysis, code, and conclusions completed by Sean Senhouse
+
+## Installation Guide
+### To review challenge 10:
+
+* The jupyter notebook can be viewed using as a web application using viola. In order to use voila you need to first install voila. Install voila in the command prompt by first typing:
+
+```python
+pip install viola
+```
+* Once viola is installed you can navigate to where the notebook is saved on your machine. In the command prompt you can run the notebook by typing in the following:
+
+```python
+voila <filename path> 
+```
+
+* Alternatively the notebook can be viewed in a jupyter web application
+
+## Usage
+The code imports the data from csv files. The code then generates the following charts: 
+
+Figure 1 shows the elbow plot using kmeans. The elbow plots are of the orignal data as well as using and comparing to using Principal Component Analysis (PCA). 
+![elbow_plots](/Starter_Code/images/elbow_plots.png)
+
+Figure 2 shows the scatter plots. This shows the comparison of two features of the crypto currencies using the original data. Then compare it using Principal Component Analysis. 
+![scatter_plots](/Starter_Code/images/scatter_plots.png)
+
+## Final Reco

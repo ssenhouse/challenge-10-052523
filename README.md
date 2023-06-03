@@ -1,4 +1,4 @@
-# challenge-10-052523*
+# *challenge-10-052523*
 ---
 **Repository for challenge 10 for FinTech BootCamp**
 ---
@@ -48,4 +48,5 @@ Figure 1 shows the elbow plot using kmeans. The elbow plots are of the orignal d
 Figure 2 shows the scatter plots. This shows the comparison of two features of the crypto currencies using the original data. Then compare it using Principal Component Analysis. 
 ![scatter_plots](/Starter_Code/images/scatter_plots.png)
 
-## Final Reco
+## Final Recommendations
+Comparing the results between the elbow data, choosing k = 4 fits both the original and the PCA analysis. However, comparing the scatter plots shows that reducing the number of features could create clusters with "closer" alignment. Both scatter plots illustrate that "ethelend" is more of an extreme crypto and, therefore, not one we may include in our cluster. However, reducing the features can make us more confident in creating two separate clusters for our portfolio analysis.
